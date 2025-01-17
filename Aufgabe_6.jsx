@@ -50,7 +50,7 @@ function Transformer() {
             value={transformation}
             onChange={(e) => setTransformation(e.target.value)}
           >
-            <MenuItem value="wgs84tolv95">WGS84 to LV95</MenuItem>
+            <MenuItem value="wgs84tolv95">WGS84 toas LV95</MenuItem>
             <MenuItem value="lv95towgs84">LV95 to WGS84</MenuItem>
           </Select>
         </Grid>
